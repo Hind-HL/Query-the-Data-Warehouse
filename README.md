@@ -6,11 +6,11 @@ Here is a quick but not extensive overview of the kind of queries we dealt with.
 -First, we created the schema of the TPC-H Benchmark then imported data into the data warehouse using the sqlldr.
 We used the CUBE, ROLLUP and Union operator in order to understand the concept behind them.
 
+-On the other hand, we have seen OLAP functions in SQL2003 such as RANK(),DENSE_RANK(),PERCENT_RANK(),..for ranking. In addition to reporting functions like SUM(X) OVER(PARTITION BY),etc.
+
 ![dw1](https://user-images.githubusercontent.com/61826522/78029156-6a8e8080-7360-11ea-8536-682cf999bd48.png)
 
 ![dw2](https://user-images.githubusercontent.com/61826522/78029204-7a0dc980-7360-11ea-87a3-7ca5e2baa4c3.png)
-
--On the other hand, we have seen OLAP functions in SQL2003 such as RANK(),DENSE_RANK(),PERCENT_RANK(),..for ranking. In addition to reporting functions like SUM(X) OVER(PARTITION BY),etc.
 
 ![dw3](https://user-images.githubusercontent.com/61826522/78029231-8560f500-7360-11ea-91b5-5ebaa1c763ca.png)
 
